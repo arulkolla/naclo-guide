@@ -75,13 +75,9 @@ Whew! Finally, we're done.
 Sound changes are the alterations that occur in the pronunciation of a language over time. These changes can affect individual sounds or entire groups of sounds. Here are some of the most common types of sound changes in linguistics:
 
 - Voicing: This type of sound change involves the voicing of consonants, where a voiceless consonant becomes voiced, or vice versa. For example, in English, the word "life" used to be pronounced with a voiceless "f" sound, but it has evolved to have a voiced "v" sound in modern English.
-
 - Palatalization: Palatalization refers to the change of a consonant sound to a palatal sound, which is made by bringing the tongue closer to the hard palate. In Slavic languages, for example, the sound "k" can palatalize to "č" in certain contexts.
-
 - Vowel Harmony: Vowel harmony occurs when the pronunciation of one vowel sound is influenced by the presence of another vowel sound in a word. This is common in many Turkic and Uralic languages. For example, in Turkish, all vowels in a word must agree in terms of frontness or backness (based on the IPA vowel trapezoid).
-
 - Lenition: Lenition refers to the weakening or softening of consonant sounds over time. This can happen in many languages, such as in the Romance languages where Latin "p" and "b" evolved into fricatives like "f" and "v" respectively.
-
 - Assimilation: Assimilation occurs when a sound is influenced by a neighboring sound and becomes more similar to it. For example, in English, the "n" in the word "in" is pronounced differently depending on the following sound. In "in the", it becomes "n" as usual, but in "in this", it becomes "ŋ", assimilating to the following "th" sound.
 
 - Metathesis: Metathesis is a phenomenon where two sounds switch positions within a word. For example, in English, the word "ask" used to be pronounced as "aks" in Old English.
