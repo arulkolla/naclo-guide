@@ -2,8 +2,9 @@ theme:
   name: cosmo
 site_name: NACLO Guide (α)
 site_description: The premier resource for linguistics olympiads.
-copyright: Arul Kolla
+copyright: ⓒ Arul Kolla and the NACLO Guide
 repo_url: https://github.com/arulkolla/naclo-guide
+edit_uri: /
 nav:
   - Home: index.md
   - Intro:
