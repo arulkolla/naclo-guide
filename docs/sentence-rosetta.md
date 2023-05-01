@@ -129,7 +129,7 @@ You might have also noticed that we haven't sprinkled key problems throughout, b
 
 | Problem | ★ | Solution |
 |--|--|--|
-| [NACLO 2021/1/2. Kabyle](https://www.uklo.org/wp-content/uploads/2022/05/2021_2-Kabyle.pdf) | 1 | [Solution](https://www.uklo.org/wp-content/uploads/2022/05/2021_2-Kabyle.pdf#page=2) |
+| [UKLO 2021/1/2. Kabyle](https://www.uklo.org/wp-content/uploads/2022/05/2021_2-Kabyle.pdf) | 1 | [Solution](https://www.uklo.org/wp-content/uploads/2022/05/2021_2-Kabyle.pdf#page=2) |
 | ★ [NACLO 2018/A. At Ease in Gilbertese](https://www.nacloweb.org/resources/problems/2018/N2018-A.pdf) | 1 | [Solution](https://www.nacloweb.org/resources/problems/2018/N2018-AS.pdf) |
 | [NACLO 2017/A. A Little Tshiluba](https://www.nacloweb.org/resources/problems/2017/N2017-A.pdf) | 1 | [Solution](https://www.nacloweb.org/resources/problems/2017/N2017-AS.pdf) |
 | [UKLO 2020/1/3. Norwedish?](https://www.uklo.org/wp-content/uploads/2022/05/2020_3.-Norwedish.pdf) | 1.5 | [Solution](https://www.uklo.org/wp-content/uploads/2022/05/2020_3.-Norwedish.pdf#page=3) |
