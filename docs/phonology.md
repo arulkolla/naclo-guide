@@ -66,7 +66,7 @@ There isn't a similar "type of consonant" distinction in any of the remaining th
 
 We're almost done now: the only thing left to distinguish is types 1 and 3. We also know that exactly one of these words breaks the rules.
 
-Looking at type 3, we can see that all words begin with two consonants, while it looks like two words from type 1 do. However, recalling that *j* acts more like a vowel than a consonant from our type 2 analysis, we conclude that type 3 words are formed through initial consonant clusters (two consonants at the beginning of a word), where *j* is not considered as a consonant, and *ktieb* is the other incorrect word, for which we except *li ktieb*.
+Looking at type 3, we can see that all words begin with two consonants, while it looks like two words from type 1 do. However, recalling that *j* acts more like a vowel than a consonant from our type 2 analysis, we conclude that type 3 words are formed through initial consonant clusters (two consonants at the beginning of a word), where *j* is not considered as a consonant, and *ktieb* is the other incorrect word, for which we expect *li ktieb*.
 
 Whew! Finally, we're done.
 
