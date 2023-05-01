@@ -14,19 +14,20 @@ nav:
     - 'How to Use This Guide': using-this-guide.md
     - 'Approaching the Open Round': round-1.md
     - 'Approaching the Invitational Round': round-2.md
-  - Common Topics:
-    - Phonology: phonology.md
-    - 'Morphology Rosetta': morphology-rosetta.md
-    - 'Sentence Rosetta': sentence-rosetta.md
-    - 'Broken Rosetta': broken-rosetta.md
-    - Computational: computational.md
-  - Likely Topics:  
-    - Numbers: numbers.md
-    - 'Semantic Matching': semantic-matching.md
-    - 'Writing Systems': writing-systems.md
-    - Kinship: kinship.md
-    - Prosody: prosody.md
-  - Rare Topics:  
-    - Directions: directions.md
-    - Heuristic: heuristic.md
-    - Monolingual: monolingual.md
+  - Topics:
+    - Common Topics:
+      - Phonology: phonology.md
+      - 'Morphology Rosetta': morphology-rosetta.md
+      - 'Sentence Rosetta': sentence-rosetta.md
+      - 'Broken Rosetta': broken-rosetta.md
+      - Computational: computational.md
+    - Likely Topics:  
+      - Numbers: numbers.md
+      - 'Semantic Matching': semantic-matching.md
+      - 'Writing Systems': writing-systems.md
+      - Kinship: kinship.md
+      - Prosody: prosody.md
+    - Rare Topics:  
+      - Directions: directions.md
+      - Heuristic: heuristic.md
+      - Monolingual: monolingual.md
