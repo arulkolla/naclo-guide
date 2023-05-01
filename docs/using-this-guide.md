@@ -16,7 +16,7 @@ So, whether you are a high school student interested in competing in NACLO, a te
 
 ## How to Use This
 
-- Many sections contain **problems** which you should solve. Some of these problems are marked with an exclamation mark (!), and we *strongly* recommend you try them out.
+- Many sections contain **problems** which you should solve. Some of these problems are marked with a star (★), and we *strongly* recommend you try them out.
 - The sections are essentially independent, so you can proceed them in any order you wish.
 - However, it is recommended that you start with the sections that introduce the basics of the contest before moving on to more advanced topics.
 - In addition to the problems included in this guide, we also recommend that you practice with additional [past NACLO problems](https://www.nacloweb.org/practice.php).
