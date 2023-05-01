@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Sentence Rosetta - NACLO Guide</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/purebasic.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">NACLO Guide</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Intro <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../what-is-naclo/" class="dropdown-item">What is NACLO?</a>
+</li>
+                                    
+<li>
+    <a href="../what-isnt-naclo/" class="dropdown-item">What isn’t NACLO?</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">General <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../using-this-guide/" class="dropdown-item">How to Use This Guide</a>
+</li>
+                                    
+<li>
+    <a href="../round-1/" class="dropdown-item">Approaching the Open Round</a>
+</li>
+                                    
+<li>
+    <a href="../round-2/" class="dropdown-item">Approaching the Invitational Round</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Common Topics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../phonology/" class="dropdown-item">Phonology</a>
+</li>
+                                    
+<li>
+    <a href="../morphology-rosetta/" class="dropdown-item">Morphology Rosetta</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Sentence Rosetta</a>
+</li>
+                                    
+<li>
+    <a href="../broken-rosetta/" class="dropdown-item">Broken Rosetta</a>
+</li>
+                                    
+<li>
+    <a href="../computational/" class="dropdown-item">Computational</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Likely Topics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../numbers/" class="dropdown-item">Numbers</a>
+</li>
+                                    
+<li>
+    <a href="../semantic-matching/" class="dropdown-item">Semantic Matching</a>
+</li>
+                                    
+<li>
+    <a href="../writing-systems/" class="dropdown-item">Writing Systems</a>
+</li>
+                                    
+<li>
+    <a href="../kinship/" class="dropdown-item">Kinship</a>
+</li>
+                                    
+<li>
+    <a href="../prosody/" class="dropdown-item">Prosody</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Rare Topics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../directions/" class="dropdown-item">Directions</a>
+</li>
+                                    
+<li>
+    <a href="../heuristic/" class="dropdown-item">Heuristic</a>
+</li>
+                                    
+<li>
+    <a href="../monolingual/" class="dropdown-item">Monolingual</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../morphology-rosetta/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../broken-rosetta/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#sentence-rosetta" class="nav-link">Sentence Rosetta</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#whats-changed" class="nav-link">What's Changed</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#word-order" class="nav-link">Word Order</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#focus" class="nav-link">Focus</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#independent-and-dependent-clauses" class="nav-link">Independent and Dependent Clauses</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#transitivity" class="nav-link">Transitivity</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#ergativity" class="nav-link">Ergativity</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#and-more" class="nav-link">And More!</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#do-i-have-to-know-all-of-this" class="nav-link">Do I Have To Know All Of This?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#example-problems" class="nav-link">Example Problems</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="sentence-rosetta">Sentence Rosetta</h1>
+<p><em>You should read <a href="../morphology-rosetta/">about morphology rosettas</a> before this section.</em></p>
+<h2 id="whats-changed">What's Changed</h2>
+<p>Sentence Rosettas take everything in morphology rosettas and cranks it up to 11, by combining nouns and verbs along with some entirely new aspects, which we'll touch on below. These are the true challenges of sentence translation, and you can guarantee that at least one of the Rosettas you'll see will be involving full sentences.</p>
+<p>Often times, there will be one key aspect that the problem will focus on, which we'll touch on below, but you will still need to do a lot of initial "legwork" to help you figure out the basic nouns and verbs, and only then will you get to the more intricate topics described below (or perhaps, more complicated morphology that just one verb alone can't display).</p>
+<h2 id="word-order">Word Order</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Resource</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.youtube.com/@Artifexian">Artifexian</a></td>
+<td>[WORD ORDER</td>
+<td>This Video Enjoyed You](https://www.youtube.com/watch?v=zFe1ahJ_LTk)</td>
+</tr>
+</tbody>
+</table>
+<p>Word order refers to the arrangement of words in a sentence. It is a fundamental aspect of language that allows speakers to convey meaning effectively. In English, word order generally follows a subject-verb-object (SVO) pattern, where the subject comes first, followed by the verb, and then the object. For example, "I ate an apple."</p>
+<p>However, not all languages follow this pattern. Some languages have a subject-object-verb (SOV) pattern, where the subject comes first, followed by the object, and then the verb. For example, in Japanese, "I ate an apple" would be "Watashi wa ringo wo tabemashita."</p>
+<p>There are also languages with a verb-subject-object (VSO) pattern, where the verb comes first, followed by the subject, and then the object. For example, in Irish, "I ate an apple" would be "D'ith mé úll."</p>
+<p>Similarly, adjectives often attach onto nouns, but they might not always go before the noun: "pink bear" in English might literally be "bear pink" in another language. Let's do a walkthrough:</p>
+<div style="background-color: #DDF0FF; border-radius: 50px; padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+  <div style="font-weight: bold; font-size: 1.5rem;">Key Problem: Beginning Sentence Rosettas</div>
+  <div style="margin-top: 10px; text-align: center; background-color: #008CBA; color: #fff; border-radius: 50px; padding: 5px; max-width: 90%;">
+    <a href="https://www.nacloweb.org/resources/problems/2021/N2021-A.pdf" style="font-size: 1.2rem; font-weight: bold; color: #fff; text-decoration: none;">NACLO 2021/A. The Tortoise and The Rabbit</a>
+  </div>
+</div>
+
+<ol>
+<li>What is the word order for sentences, and for adjectives?</li>
+<li>Keep a table of the vocabulary you have, and complete task <strong>A1</strong>.</li>
+<li>How does past tense work?</li>
+<li>How do the determiners (the, this, that) function? (They don't need to just be one word!)</li>
+<li>Expand your vocabulary table, and complete task <strong>A2</strong>. You can check your answers <a href="https://www.nacloweb.org/resources/problems/2021/N2021-AS.pdf">here</a>.</li>
+</ol>
+<p>Some languages have free word order, which means that the order of words in a sentence is not fixed and can vary depending on the context or emphasis. For example, in Latin, the subject, object, and verb can be arranged in any order because the function of each word is indicated by its case. This allows for more flexibility in word order because the function of each noun is indicated by its case, rather than its position in the sentence, like mentioned in the previous section. And this idea of free word order leads to the next commonly seen topic...</p>
+<h2 id="focus">Focus</h2>
+<p>Focus in linguistics refers to the part of a sentence or discourse that receives special emphasis or attention. It can be thought of as the main point or idea that the speaker or writer is trying to convey. For example, in the sentence "John ate an apple," the focus is on the fact that John performed the action of eating, rather than on the apple itself.</p>
+<p>One interesting feature of focus is that it can be marked in a variety of ways in different languages. For instance, some languages use word order to indicate focus, allowing for free word order within a sentence. In these languages, the focused element can appear anywhere in the sentence, as long as it is accompanied by a special marker that indicates its importance. For example, in some languages with noun cases, in the sentence "I saw a cat," if the focus is on the cat, the sentence would be structured as "Cat I saw" (with all words marked for case).</p>
+<h2 id="independent-and-dependent-clauses">Independent and Dependent Clauses</h2>
+<p>When we talk about clauses in grammar, we are referring to groups of words that contain a subject and a predicate, which means they can express a complete thought or idea. There are two main types of clauses: dependent and independent clauses.</p>
+<p>An independent clause is a group of words that can stand alone as a sentence, expressing a complete thought. For example, "I like to read books." This sentence contains an independent clause because it expresses a complete idea, and it can stand alone as a complete sentence.</p>
+<p>On the other hand, a dependent clause is a group of words that cannot stand alone as a sentence, and it relies on an independent clause to complete its meaning. For example, "Because I like to read books." This sentence contains a dependent clause because it cannot stand alone as a sentence, and it relies on the independent clause "I like to read books" to complete its meaning.</p>
+<p>Conjunctions are words that join clauses, phrases, or words together. They are used to show the relationship between the parts of a sentence. For example, "I like to read books, and my sister likes to watch movies." In this sentence, the conjunction "and" is used to join two independent clauses together.</p>
+<p>Sometimes, languages can deal with clauses in unique ways, so it's important to carefully translate each word and see where the matches are. The locations of clauses in the sentences can also be unexpected.</p>
+<h2 id="transitivity">Transitivity</h2>
+<p>In linguistics, verbs can be classified based on the number of arguments they take. Specifically, verbs can be classified as intransitive, transitive, or ditransitive. </p>
+<p><strong>Intransitive verbs:</strong> These are verbs that do not require an object to complete their meaning. They only need a subject to form a complete sentence. For example:</p>
+<ul>
+<li>She slept.</li>
+<li>The cat jumped.</li>
+<li>He ran.</li>
+</ul>
+<p>In these examples, the verbs slept, jumped, and ran do not require an object to complete their meaning. They are therefore intransitive verbs.</p>
+<p><strong>Transitive verbs:</strong> These are verbs that require an object to complete their meaning. They have a subject, a verb, and an object. For example:</p>
+<ul>
+<li>She ate an apple.</li>
+<li>The dog chased the cat.</li>
+<li>He read a book.</li>
+</ul>
+<p>In these examples, the verbs ate, chased, and read require an object to complete their meaning. They are therefore transitive verbs.</p>
+<p><strong>Ditransitive verbs:</strong> These are verbs that take two objects: a direct object and an indirect object. The indirect object usually comes before the direct object. For example:</p>
+<ul>
+<li>She gave him a present.</li>
+<li>They sent us a postcard.</li>
+<li>He told her a story.</li>
+</ul>
+<p>In these examples, the verbs gave, sent, and told take both a direct and indirect object. The indirect object is the recipient of the direct object. They are therefore ditransitive verbs.</p>
+<p>Sometimes, these verbs are treated differently, </p>
+<h2 id="ergativity">Ergativity</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Resource</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.youtube.com/@Artifexian">Artifexian</a></td>
+<td><a href="https://www.youtube.com/watch?v=kFzt_GHNd1M">Ergativity: Her Likes She</a></td>
+<td>A deep dive into ergativity.</td>
+</tr>
+</tbody>
+</table>
+<p>Consider these two sentences.</p>
+<ul>
+<li>She chased her.</li>
+<li>She slept.</li>
+</ul>
+<p>Notice that the subject "she" in the first sentence is the one doing the action of chasing, while in the second sentence, "she" is the one being acted upon by sleep. In linguistic terms, the first sentence is transitive, meaning it has a direct object, while the second sentence is intransitive, meaning it does not have a direct object.</p>
+<p>Now, let's look at how ergativity comes into play in these sentences. In ergative languages, the subject of an intransitive verb is treated differently from the subject of a transitive verb. Specifically, the subject of an intransitive verb is treated like the object of a transitive verb, while the subject of a transitive verb is treated differently.</p>
+<p>There are names for these three types of words: <strong>A</strong> is used for the <em>a</em>gent of a transitive verb (the one who is doing the action), <strong>O</strong> for the <em>o</em>bject of a transitive verb (the one who recieves the action), and <strong>S</strong> for the <em>s</em>ubject of an intransitive verb. In nominative-accusative alignment, A = S (the <em>nominative</em> case) and O is the <em>accusative</em> case.</p>
+<p>Let's take a different hypothetical ergative language:</p>
+<ul>
+<li>She chased her.</li>
+<li>Her slept.</li>
+</ul>
+<p>In this hypothetical language, the word order for the first sentence might be "She her chased", with "her" marked as the direct object of the verb "chased". However, in the second sentence, the word order might be "She slept", with "she" marked as the object of the verb "slept". So, in this language, the subject of the intransitive verb "slept" is marked the same way as the object of the transitive verb "chased".</p>
+<p>In ergative-absolutive environment, O = S (the <em>absolutive</em> case) and A is the <em>ergative</em> case.</p>
+<p>Of course, this is not the only way to deal with these pronouns, but this distinction is common enough to appear in several problems.</p>
+<h2 id="and-more">And More!</h2>
+<p>There's even more information that's seen here, like converbs, wh- versus polar question formation, and how adjectives work! Most of these are fairly ad-hoc, though; the most important thing to remember for all of them is that the rule should be consistent throughout.</p>
+<h2 id="do-i-have-to-know-all-of-this">Do I Have To Know All Of This?</h2>
+<p>Short answer: no.</p>
+<p>Long answer: it might be <em>helpful</em> when these phenomena are not evident from the English translation (for example, ergativity), but you would still be able to figure it out from the data. And remember, <strong>you don't need to use any fancy linguistic terminology!</strong> Try and stick to more commonly accepted descriptions, and show with examples.</p>
+<p>You might have also noticed that we haven't sprinkled key problems throughout, because a large part of these problems is figuring out <em>what</em> exactly is the feature that's being focused on. Try out some examples.</p>
+<h2 id="example-problems">Example Problems</h2>
+<table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>★</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2021_2-Kabyle.pdf">NACLO 2021/1/2. Kabyle</a></td>
+<td>1</td>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2021_2-Kabyle.pdf#page=2">Solution</a></td>
+</tr>
+<tr>
+<td>★ <a href="https://www.nacloweb.org/resources/problems/2018/N2018-A.pdf">NACLO 2018/A. At Ease in Gilbertese</a></td>
+<td>1</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2018/N2018-AS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2017/N2017-A.pdf">NACLO 2017/A. A Little Tshiluba</a></td>
+<td>1</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2017/N2017-AS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2020_3.-Norwedish.pdf">UKLO 2020/1/3. Norwedish?</a></td>
+<td>1.5</td>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2020_3.-Norwedish.pdf#page=3">Solution</a></td>
+</tr>
+<tr>
+<td>★ <a href="https://www.nacloweb.org/resources/problems/2019/N2019-B.pdf">NACLO 2019/B. You Speak Ndebele, Don't You?</a></td>
+<td>2</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-BS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-E.pdf">NACLO 2019/E. Hate It or Lopit</a></td>
+<td>2</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-ES.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2019_5-Pitjantjatjara.pdf">UKLO 2019/1/5. Pitjantjatjara</a></td>
+<td>2.5</td>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2019_5-Pitjantjatjara.pdf#page=3">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2020/N2020-F.pdf">NACLO 2020/F. Coming Into Focus</a></td>
+<td>2.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2020/N2020-FS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td>★ <a href="https://www.nacloweb.org/resources/problems/2017/N2017-L.pdf">NACLO 2017/L. The Goat, the Mother, and the Wardrobe</a></td>
+<td>3</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2017/N2017-LS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2016/N2016-O.pdf">NACLO 2016/O. Don't Sell the House!</a></td>
+<td>3</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2016/N2016-OS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-F.pdf">NACLO 2021/F. The Wiles of Reptiles</a></td>
+<td>3.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-FS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2014/N2014-Q.pdf">NACLO 2014/Q. Learning Yidiny</a></td>
+<td>4.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2014/N2014-QS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td>★ <a href="https://www.nacloweb.org/resources/problems/2022/N2022-Q.pdf">NACLO 2022/Q. Relatively Speaking</a></td>
+<td>5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-QS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-M.pdf">NACLO 2021/M. The Speech Has No End</a></td>
+<td>5.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-MS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-S.pdf">NACLO 2021/S. Peace Only</a></td>
+<td>6</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-SS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-P.pdf">NACLO 2019/P. Do You Hear The Master's Moon?</a></td>
+<td>6</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-PS.pdf">Solution</a></td>
+</tr>
+</tbody>
+</table></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

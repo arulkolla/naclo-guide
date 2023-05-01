@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Computational - NACLO Guide</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/purebasic.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">NACLO Guide</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Intro <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../what-is-naclo/" class="dropdown-item">What is NACLO?</a>
+</li>
+                                    
+<li>
+    <a href="../what-isnt-naclo/" class="dropdown-item">What isn’t NACLO?</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">General <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../using-this-guide/" class="dropdown-item">How to Use This Guide</a>
+</li>
+                                    
+<li>
+    <a href="../round-1/" class="dropdown-item">Approaching the Open Round</a>
+</li>
+                                    
+<li>
+    <a href="../round-2/" class="dropdown-item">Approaching the Invitational Round</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Common Topics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../phonology/" class="dropdown-item">Phonology</a>
+</li>
+                                    
+<li>
+    <a href="../morphology-rosetta/" class="dropdown-item">Morphology Rosetta</a>
+</li>
+                                    
+<li>
+    <a href="../sentence-rosetta/" class="dropdown-item">Sentence Rosetta</a>
+</li>
+                                    
+<li>
+    <a href="../broken-rosetta/" class="dropdown-item">Broken Rosetta</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Computational</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Likely Topics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../numbers/" class="dropdown-item">Numbers</a>
+</li>
+                                    
+<li>
+    <a href="../semantic-matching/" class="dropdown-item">Semantic Matching</a>
+</li>
+                                    
+<li>
+    <a href="../writing-systems/" class="dropdown-item">Writing Systems</a>
+</li>
+                                    
+<li>
+    <a href="../kinship/" class="dropdown-item">Kinship</a>
+</li>
+                                    
+<li>
+    <a href="../prosody/" class="dropdown-item">Prosody</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Rare Topics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../directions/" class="dropdown-item">Directions</a>
+</li>
+                                    
+<li>
+    <a href="../heuristic/" class="dropdown-item">Heuristic</a>
+</li>
+                                    
+<li>
+    <a href="../monolingual/" class="dropdown-item">Monolingual</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../broken-rosetta/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../numbers/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#computational" class="nav-link">Computational</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#describing-computational-problems" class="nav-link">Describing Computational Problems</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#no-intro-problems" class="nav-link">"No Intro" Problems</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#with-intro-problems" class="nav-link">"With Intro" Problems</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#general-tips" class="nav-link">General Tips</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#practice-problems" class="nav-link">Practice Problems</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="computational">Computational</h1>
+<p>Computational problems are very unique to NACLO, when compared to other contests like any other country's national linguistic olympiad or even the IOL, but these problems often show the aspects of linguistics that are used more often in your day-to-day life and can often be more approachable than the linguistics problems you see.</p>
+<h2 id="describing-computational-problems">Describing Computational Problems</h2>
+<p>The main thing that unifies all computational problems on the NACLO is that they often (but not always) involve the use of algorithms and computer programming to solve linguistic puzzles. These problems require the use of computational thinking and problem-solving skills, as well as an understanding of linguistics and language structure. Many times, they start off with English and then expect you to either describe an algorithm or apply it to more English or other languages.</p>
+<p>There are several common types of computational aspects that may appear on the NACLO, including:</p>
+<ul>
+<li><strong>Morphological analysis</strong>: Given a word or set of words, identify how to break them into morphological components (prefixes, suffixes, stems, etc.).</li>
+<li><strong>Phonological analysis</strong>: Given a word or set of words, identify how to break them into phonological components (syllables, phonemes, etc.).</li>
+<li><strong>Word sense disambiguation</strong>: Given a word that has multiple meanings, ientify how to determine which meaning is being used in a given context.</li>
+<li><strong>Machine translation</strong>: A combination of all of the above.</li>
+<li><strong>Machine categorization</strong>: Interpret how computers categorize and interpret classes of words.</li>
+<li><strong>Human categorization</strong>: Interpret how humans categorize and interpret classes of words.
+Essentially, <em>anything</em> that involves languages, computers, and humans in some way is fair game, so the above list is <em>very</em> much not comprehensive. These problems are the most "unpredictable" in terms of what might come up in the future, but there are still a few things you can try to prepare for them.</li>
+</ul>
+<h2 id="no-intro-problems">"No Intro" Problems</h2>
+<p>Many (but not all) computational problems fall into one of two types: in one type, you aren't explained what the process or algorithm you are trying to look for <em>is</em>, and the majority of the problem is about finding this algorithm.</p>
+<p>The most important thing to remember here is <em>Occam's razor</em>: the simplest explanation is probably the correct one.</p>
+<p>It's important to start by breaking down the problem into smaller parts and identifying patterns or rules that might be involved. From there, you can start to develop hypotheses and test them out by applying them to different examples. It's also important to pay attention to any hints or clues that might be provided in the problem statement flavortext or in the examples given; often times, reading the opening blurb might provide an insight (or even very explicit hint!) into the phenomenon.</p>
+<h2 id="with-intro-problems">"With Intro" Problems</h2>
+<p>The other type of computational problem provides an introduction or explanation of the algorithm or process you are expected to use. In these cases, the challenge is often to apply the algorithm or process correctly to a new set of examples, and then see how it changes with minor changes to the input. You may be even asked to develop a new algorithm.</p>
+<p>The key to solving these problems is to fully understand the algorithm or process being described and to practice applying it to different examples. You may also need to adjust the algorithm or process to fit the specific requirements of the problem at hand. These problems are often much more CS-minded, so it might helpt to do a little bit of computational thinking here.</p>
+<h2 id="general-tips">General Tips</h2>
+<p>Here are a few general summarized tips:</p>
+<ul>
+<li>Practice, practice, practice! The more you work with algorithms and programming, the more comfortable you will become with these types of problems. It might even help to do logic puzzles or something similar to get that logical part of your brain going.</li>
+<li>Use common sense. A lot of these problems involve "general knowledge" about how things interact and definitions of common words, so don't forget these when working through problems.</li>
+<li>Break the problem down into smaller parts and identify patterns or rules that might be involved.</li>
+<li>Pay attention to any hints or clues provided in the problem statement or examples given.</li>
+<li>Use Occam's razor: the simplest explanation is often the correct one.</li>
+<li>Fully understand the algorithm or process being described before attempting to apply it to new examples.</li>
+<li>Adjust the algorithm or process to fit the specific requirements of the problem at hand.</li>
+</ul>
+<p>Computational problems are also often very long, so it's important to consider how that factors into the time spent. Although they are often easier to make progress in than linguistics problems (because most of the knowledge is already known), they might take longer. Regardless, they are more reliable to get points than linguistics problems, so it's important to consider how you want to approach them.</p>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>There aren't any walkthroughs in this section, since most computational problems are just "working through them" until you get to the answer. We recommend you time yourself, however, and see how much time it takes you to get to the idea in each of these problems, since the best way to get faster at these problems is through practice.</p>
+<table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>★</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2010/A.pdf">NACLO 2010/A. Gelda's House of Gelbelgarg</a></td>
+<td>1</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2010/AS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-G.pdf">NACLO 2019/G. Break it Down!</a></td>
+<td>1</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-GS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td>★ <a href="https://www.nacloweb.org/resources/problems/2022/N2022-G.pdf">NACLO 2022/G. Out of Order</a></td>
+<td>1</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-GS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-L.pdf">NACLO 2022/L. Stopping for a Spell</a></td>
+<td>1</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-LS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-H.pdf">NACLO 2021/H. Sequitur</a></td>
+<td>1.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-HS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td>★ <a href="https://www.nacloweb.org/resources/problems/2021/N2021-D.pdf">NACLO 2021/D. Made You Look!</a></td>
+<td>2</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-DS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2020/N2020-D.pdf">NACLO 2020/D. Pay Attention</a></td>
+<td>2</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2020/N2020-DS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-I.pdf">NACLO 2021/I. Non Sequitur</a></td>
+<td>2</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-I.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-C.pdf">NACLO 2022/C. To Make a Long Story Short</a></td>
+<td>2</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-CS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-M.pdf">NACLO 2022/M. A Splitting Disagreement</a></td>
+<td>2.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-M.pdf">Solution</a></td>
+</tr>
+<tr>
+<td>★ <a href="https://www.nacloweb.org/resources/problems/2018/N2018-G.pdf">NACLO 2018/G. By the Same Token</a></td>
+<td>3.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2018/N2018-GS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2020/N2020-M.pdf">NACLO 2020/M. Adjupectiheaval!</a></td>
+<td>4</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2020/N2020-MS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-R.pdf">NACLO 2021/R. GloVe Compartment</a></td>
+<td>5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-RS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-P.pdf">NACLO 2022/P. Yumology</a></td>
+<td>6.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-PS.pdf">Solution</a></td>
+</tr>
+</tbody>
+</table></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

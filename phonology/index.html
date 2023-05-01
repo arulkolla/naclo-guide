@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Phonology - NACLO Guide</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/purebasic.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">NACLO Guide</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Intro <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../what-is-naclo/" class="dropdown-item">What is NACLO?</a>
+</li>
+                                    
+<li>
+    <a href="../what-isnt-naclo/" class="dropdown-item">What isn’t NACLO?</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">General <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../using-this-guide/" class="dropdown-item">How to Use This Guide</a>
+</li>
+                                    
+<li>
+    <a href="../round-1/" class="dropdown-item">Approaching the Open Round</a>
+</li>
+                                    
+<li>
+    <a href="../round-2/" class="dropdown-item">Approaching the Invitational Round</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Common Topics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Phonology</a>
+</li>
+                                    
+<li>
+    <a href="../morphology-rosetta/" class="dropdown-item">Morphology Rosetta</a>
+</li>
+                                    
+<li>
+    <a href="../sentence-rosetta/" class="dropdown-item">Sentence Rosetta</a>
+</li>
+                                    
+<li>
+    <a href="../broken-rosetta/" class="dropdown-item">Broken Rosetta</a>
+</li>
+                                    
+<li>
+    <a href="../computational/" class="dropdown-item">Computational</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Likely Topics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../numbers/" class="dropdown-item">Numbers</a>
+</li>
+                                    
+<li>
+    <a href="../semantic-matching/" class="dropdown-item">Semantic Matching</a>
+</li>
+                                    
+<li>
+    <a href="../writing-systems/" class="dropdown-item">Writing Systems</a>
+</li>
+                                    
+<li>
+    <a href="../kinship/" class="dropdown-item">Kinship</a>
+</li>
+                                    
+<li>
+    <a href="../prosody/" class="dropdown-item">Prosody</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Rare Topics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../directions/" class="dropdown-item">Directions</a>
+</li>
+                                    
+<li>
+    <a href="../heuristic/" class="dropdown-item">Heuristic</a>
+</li>
+                                    
+<li>
+    <a href="../monolingual/" class="dropdown-item">Monolingual</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../round-2/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../morphology-rosetta/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#phonology" class="nav-link">Phonology</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#ipa" class="nav-link">IPA</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#agreement" class="nav-link">Agreement</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#common-sound-changes" class="nav-link">Common Sound Changes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#practice-problems" class="nav-link">Practice Problems</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="phonology">Phonology</h1>
+<h2 id="ipa">IPA</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Resource</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.youtube.com/@Xidnaf">Xidnaf</a></td>
+<td><a href="https://www.youtube.com/watch?v=00pHrQo-0R4">The IPA and the IPA That Created It</a></td>
+<td>A brief general overview video of the IPA.</td>
+</tr>
+<tr>
+<td><a href="https://www.youtube.com/@Artifexian">Artifexian</a></td>
+<td><a href="https://www.youtube.com/watch?v=xMEFr7ghMTg">IPA Basics: Place of Articulation</a>, <a href="https://www.youtube.com/watch?v=J3IO5K5ZGB4">IPA Basics: Manner of Articulation</a>, and <a href="https://www.youtube.com/watch?v=jkfSA4_DCfs">IPA Basics: Voicing</a></td>
+<td>Looking at aspects of consonant pronunciation in detail.</td>
+</tr>
+<tr>
+<td>IPA Chart</td>
+<td><a href="https://www.ipachart.com/">IPA Chart</a></td>
+<td>An interactive IPA chart to hear how all the sounds are pronounced.</td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>International Phonetic Alphabet</strong>, or <strong>IPA</strong> for short, is a system of phonetic notation that uses symbols to represent the sounds of human speech. It was first developed in the late 19th century and has since been revised several times. The key thing you need to know about the IPA is that you <strong>don't need to memorize it!</strong> But it does help to know some of the common patterns that you might see, which can help you with future problems.</p>
+<p>The IPA includes symbols for all the consonants, vowels, and diphthongs that occur in the world's languages. The symbols are based on the sounds themselves, rather than on the way they are spelled in a particular language. For example, the sound represented by the English letter "y" in "yay!" is represented in the IPA by the symbol /j/.</p>
+<p>The idea of learning about the IPA is not to get you to know every symbol (they will be explained in problem statements anyway), but look at the <em>relationships</em> between these symbols. The IPA is structured in such a way that it is easy to describe sound changes as certain movements in the table.</p>
+<h2 id="agreement">Agreement</h2>
+<div style="background-color: #DDF0FF; border-radius: 50px; padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+  <div style="font-weight: bold; font-size: 1.5rem;">Key Problem: Sound Changes</div>
+  <div style="margin-top: 10px; text-align: center; background-color: #008CBA; color: #fff; border-radius: 50px; padding: 5px; max-width: 90%;">
+    <a href="https://www.nacloweb.org/resources/problems/2019/N2019-A.pdf" style="font-size: 1.2rem; font-weight: bold; color: #fff; text-decoration: none;">NACLO 2019/A. Malteaser</a>
+  </div>
+</div>
+
+<p><span></span></p>
+<p>How do we approach this problem? Note that there are four types of beginning words:</p>
+<ol>
+<li><em>il</em></li>
+<li><em>l</em></li>
+<li><em>li</em></li>
+<li><em>iC</em>, where <em>C</em> is the first consonant of the following word.</li>
+</ol>
+<p>When are each of these words used? We can make a table:</p>
+<table>
+<thead>
+<tr>
+<th>Type 1 <em>il</em></th>
+<th>Type 2 <em>l</em></th>
+<th>Type 3 <em>li</em></th>
+<th>Type 4 <em>iC</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>qassis</em></td>
+<td><em>għonq</em></td>
+<td><em>mħadda</em></td>
+<td><em>sħana</em></td>
+</tr>
+<tr>
+<td><em>mara</em></td>
+<td><em>art</em></td>
+<td><em>ksieħ</em></td>
+<td><em>ċpar</em></td>
+</tr>
+<tr>
+<td><em>ġobon</em></td>
+<td><em>uffiċċju</em></td>
+<td><em>ħmar</em></td>
+<td><em>dar</em></td>
+</tr>
+<tr>
+<td><em>bar</em></td>
+<td><em>jum</em></td>
+<td><em>bdeiwa</em></td>
+<td><em>żir</em></td>
+</tr>
+<tr>
+<td><em>ktieb</em></td>
+<td></td>
+<td></td>
+<td><em>raġel</em></td>
+</tr>
+<tr>
+<td><em>vjola</em></td>
+<td></td>
+<td></td>
+<td><em>silġ</em></td>
+</tr>
+</tbody>
+</table>
+<p>Note that there are two words, <em>il lvant</em> and <em>il lanġas</em>, which we are not sure if they should go in type 1 or type 4. </p>
+<p>However, looking at the words we already have, we can make some observations. Noticing that words of type 4 have a clear starting point as to what we should look for (they match the first consonant of the word), let's look at these first letters: s, ċ, d, ż, r. If we imagine shading in the cells containing these letters in the pronunciation table given, we can clearly see that they are all <em>alveolar</em> consonants.</p>
+<p>Looking at the other three types of words, none of them begin with an alveolar, except for <em>ġobon</em>. Therefore, since this pattern is supported by essentially all of the given words except one, we can conclude that <em>ġobon</em> is one of the words mentioned in task <strong>A1</strong> that doesn't follow the normal rules of Maltese, and we expect to see <em>iġ ġobon</em>. This also means <em>il lvant</em> and <em>il lanġas</em> will be type 4, so let's update our table.</p>
+<table>
+<thead>
+<tr>
+<th>Type 1 <em>il</em></th>
+<th>Type 2 <em>l</em></th>
+<th>Type 3 <em>li</em></th>
+<th>Type 4 <em>iC</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>qassis</em></td>
+<td><em>għonq</em></td>
+<td><em>mħadda</em></td>
+<td><em>sħana</em></td>
+</tr>
+<tr>
+<td><em>mara</em></td>
+<td><em>art</em></td>
+<td><em>ksieħ</em></td>
+<td><em>ċpar</em></td>
+</tr>
+<tr>
+<td><em>bar</em></td>
+<td><em>uffiċċju</em></td>
+<td><em>ħmar</em></td>
+<td><em>dar</em></td>
+</tr>
+<tr>
+<td><em>ktieb</em></td>
+<td><em>jum</em></td>
+<td><em>bdeiwa</em></td>
+<td><em>żir</em></td>
+</tr>
+<tr>
+<td><em>vjola</em></td>
+<td></td>
+<td></td>
+<td><em>raġel</em></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><em>silġ</em></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><em>ġobon</em> (breaks rules)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><em>lvant</em></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><em>lanġas</em></td>
+</tr>
+</tbody>
+</table>
+<p>There isn't a similar "type of consonant" distinction in any of the remaining three types, so let's look at other information the problem gives us. We are also told that <em>h</em> and <em>għ</em> are silent, and there is only a single word starting with either of them: <em>għonq</em>, in type 2. If we remove it, we notice that all of these words start with a vowel or semivowel <em>j</em>, while none of the other ones do, so we conclude that type 2 words are those that begin with a vowel or semivowel.</p>
+<p>We're almost done now: the only thing left to distinguish is types 1 and 3. We also know that exactly one of these words breaks the rules.</p>
+<p>Looking at type 3, we can see that all words begin with two consonants, while it looks like two words from type 1 do. However, recalling that <em>j</em> acts more like a vowel than a consonant from our type 2 analysis, we conclude that type 3 words are formed through initial consonant clusters (two consonants at the beginning of a word), where <em>j</em> is not considered as a consonant, and <em>ktieb</em> is the other incorrect word, for which we except <em>li ktieb</em>.</p>
+<p>Whew! Finally, we're done.</p>
+<h2 id="common-sound-changes">Common Sound Changes</h2>
+<p>Sound changes are the alterations that occur in the pronunciation of a language over time. These changes can affect individual sounds or entire groups of sounds. Here are some of the most common types of sound changes in linguistics:</p>
+<ul>
+<li>
+<p>Voicing: This type of sound change involves the voicing of consonants, where a voiceless consonant becomes voiced, or vice versa. For example, in English, the word "life" used to be pronounced with a voiceless "f" sound, but it has evolved to have a voiced "v" sound in modern English.</p>
+</li>
+<li>
+<p>Palatalization: Palatalization refers to the change of a consonant sound to a palatal sound, which is made by bringing the tongue closer to the hard palate. In Slavic languages, for example, the sound "k" can palatalize to "č" in certain contexts.</p>
+</li>
+<li>
+<p>Vowel Harmony: Vowel harmony occurs when the pronunciation of one vowel sound is influenced by the presence of another vowel sound in a word. This is common in many Turkic and Uralic languages. For example, in Turkish, all vowels in a word must agree in terms of frontness or backness (based on the IPA vowel trapezoid).</p>
+</li>
+<li>
+<p>Lenition: Lenition refers to the weakening or softening of consonant sounds over time. This can happen in many languages, such as in the Romance languages where Latin "p" and "b" evolved into fricatives like "f" and "v" respectively.</p>
+</li>
+<li>
+<p>Assimilation: Assimilation occurs when a sound is influenced by a neighboring sound and becomes more similar to it. For example, in English, the "n" in the word "in" is pronounced differently depending on the following sound. In "in the", it becomes "n" as usual, but in "in this", it becomes "ŋ", assimilating to the following "th" sound.</p>
+</li>
+<li>
+<p>Metathesis: Metathesis is a phenomenon where two sounds switch positions within a word. For example, in English, the word "ask" used to be pronounced as "aks" in Old English.</p>
+</li>
+</ul>
+<p>These are just a few examples of the many types of sound changes that can occur in a language over time, but they are the most common changes that can occur.</p>
+<h2 id="practice-problems">Practice Problems</h2>
+<table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>★</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>★</strong> <a href="https://www.nacloweb.org/resources/problems/2020/N2020-A.pdf">NACLO 2020/A. Let that Mongo!</a></td>
+<td>1</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2020/N2020-AS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2019_1-Ladin.pdf">UKLO 2019/1/1. Ladin</a></td>
+<td>1.5</td>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2019_1-Ladin.pdf#page=2">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2020/N2020-L.pdf">NACLO 2020/L. Shiva Sutras</a></td>
+<td>2</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2020/N2020-LS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><strong>★</strong> <a href="https://www.nacloweb.org/resources/problems/2018/N2018-Q.pdf">NACLO 2018/Q. Better Left Unsaid</a></td>
+<td>2</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2018/N2018-QS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-F.pdf">NACLO 2019/F. Harmongolia</a></td>
+<td>2.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-FS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-J.pdf">NACLO 2019/J. Polish These Nouns!</a></td>
+<td>2.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-JS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2016/N2016-M.pdf">NACLO 2016/M. Sound Judgements</a></td>
+<td>3</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2016/N2016-MS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><strong>★</strong> <a href="https://www.nacloweb.org/resources/problems/2021/N2021-J.pdf">NACLO 2021/J. A Vintage Sound System</a></td>
+<td>3.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2021/N2021-JS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2016_8.-Somali.pdf">UKLO 2016/1/8. Somali</a></td>
+<td>4</td>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2016_8.-Somali.pdf#page=4">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2020/N2020-P.pdf">NACLO 2020/P. Doubling Up on Nakanai</a></td>
+<td>4.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2020/N2020-PS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-N.pdf">NACLO 2022/N. Pseudorandom Numbers</a></td>
+<td>6</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-NS.pdf">Solution</a></td>
+</tr>
+</tbody>
+</table></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

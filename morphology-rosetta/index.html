@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Morphology Rosetta - NACLO Guide</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/purebasic.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">NACLO Guide</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Intro <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../what-is-naclo/" class="dropdown-item">What is NACLO?</a>
+</li>
+                                    
+<li>
+    <a href="../what-isnt-naclo/" class="dropdown-item">What isn’t NACLO?</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">General <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../using-this-guide/" class="dropdown-item">How to Use This Guide</a>
+</li>
+                                    
+<li>
+    <a href="../round-1/" class="dropdown-item">Approaching the Open Round</a>
+</li>
+                                    
+<li>
+    <a href="../round-2/" class="dropdown-item">Approaching the Invitational Round</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Common Topics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../phonology/" class="dropdown-item">Phonology</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Morphology Rosetta</a>
+</li>
+                                    
+<li>
+    <a href="../sentence-rosetta/" class="dropdown-item">Sentence Rosetta</a>
+</li>
+                                    
+<li>
+    <a href="../broken-rosetta/" class="dropdown-item">Broken Rosetta</a>
+</li>
+                                    
+<li>
+    <a href="../computational/" class="dropdown-item">Computational</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Likely Topics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../numbers/" class="dropdown-item">Numbers</a>
+</li>
+                                    
+<li>
+    <a href="../semantic-matching/" class="dropdown-item">Semantic Matching</a>
+</li>
+                                    
+<li>
+    <a href="../writing-systems/" class="dropdown-item">Writing Systems</a>
+</li>
+                                    
+<li>
+    <a href="../kinship/" class="dropdown-item">Kinship</a>
+</li>
+                                    
+<li>
+    <a href="../prosody/" class="dropdown-item">Prosody</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Rare Topics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../directions/" class="dropdown-item">Directions</a>
+</li>
+                                    
+<li>
+    <a href="../heuristic/" class="dropdown-item">Heuristic</a>
+</li>
+                                    
+<li>
+    <a href="../monolingual/" class="dropdown-item">Monolingual</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../phonology/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../sentence-rosetta/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#morphology-rosetta" class="nav-link">Morphology Rosetta</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#introduction-to-rosettas" class="nav-link">Introduction to Rosettas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#morphology" class="nav-link">Morphology</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#noun-cases" class="nav-link">Noun Cases</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#verbs-person-tense-aspect-and-mood" class="nav-link">Verbs: Person, Tense, Aspect, and Mood</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#practice-verb-problem" class="nav-link">Practice Verb Problem</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#example-problems" class="nav-link">Example Problems</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="morphology-rosetta">Morphology Rosetta</h1>
+<h2 id="introduction-to-rosettas">Introduction to Rosettas</h2>
+<p>A <strong>Rosetta</strong> (or <strong>Rosetta Stone</strong>) problem in linguistics olympiads refers to a type of problem where the participant is presented with a text written in an unknown language and is asked to decipher or translate it by comparing it to a parallel text in a known language. The parallel text serves as a key to unlock the meaning of the unknown language.</p>
+<p>The name "Rosetta Stone" comes from the famous ancient Egyptian artifact that was inscribed with a decree in three different scripts: hieroglyphics, Demotic script, and Ancient Greek. The discovery of the Rosetta Stone allowed scholars to decipher ancient Egyptian hieroglyphics by comparing them to the known Greek text.</p>
+<p>Rosettas are the bread and butter of linguistics olympiads; you can almost guarantee that you will see at least one on any olympiad you do. Despite this, they can often be very challenging, mainly because they can focus on so many aspects at once that you need to be careful to dissect. Often times, parts of <a href="../phonology/">phonology</a> creep into these problems too, so you have to watch out for that!</p>
+<h2 id="morphology">Morphology</h2>
+<p>Morphology is like building with blocks to make words. Just like how you can make different things with Lego blocks, you can make different words by combining smaller parts called "morphemes." Morphemes are like the Lego blocks - they're the building blocks of words. By putting different morphemes together, you can create different words and change their meaning. For example, the word "unhappiness" is made up of three morphemes: "un-", "happy", and "-ness." The "un-" means not, "happy" means feeling good, and "-ness" means a state of. So when you put them all together, you get the word "unhappiness" which means not feeling good.</p>
+<p>In <strong>morphology Rosetta</strong> problems, you are given several words or phrases (but often <em>not</em> full sentences) in a target language and English, and you need to determine the rules for coming up with similar phrases.</p>
+<h2 id="noun-cases">Noun Cases</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Resource</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.youtube.com/@Artifexian">Artifexian</a></td>
+<td><a href="https://www.youtube.com/watch?v=-ROuCBV35e8">Nouns: A Case of Case</a></td>
+<td>A dive into several aspects of noun cases. (You definitely don't need to know everything discussed in this video!)</td>
+</tr>
+</tbody>
+</table>
+<p>When we talk about things, we sometimes need to use different words or word endings to show how they relate to the other words in a sentence. This is where noun cases come in.</p>
+<p>For example, let's say we have the sentence "The cat chased the mouse." In this sentence, "cat" is the subject - it's doing the chasing - so we use the "nominative" case for the word "cat." But if we change the sentence to "The mouse was chased by the cat," now "mouse" is the subject and "cat" is the one doing the chasing. So now we use the "nominative" case for "mouse" and the "accusative" case for "cat." To do this, some languages "encode" this information onto the noun itself: "The cat-n chased the mouse-a", for example.</p>
+<p>Overall, noun cases help us understand how different words relate to each other in a sentence. Here are several common noun cases:</p>
+<table>
+<thead>
+<tr>
+<th>Case</th>
+<th>Example</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nominative</td>
+<td><strong>I</strong> am</td>
+<td>The subject of the sentence</td>
+</tr>
+<tr>
+<td>Accusative</td>
+<td>He hit <strong>me</strong></td>
+<td>The direct object of the verb</td>
+</tr>
+<tr>
+<td>Dative</td>
+<td>She gave <strong>me</strong> the book</td>
+<td>The indirect object of the verb</td>
+</tr>
+<tr>
+<td>Genitive</td>
+<td>The <strong>car's</strong> engine runs</td>
+<td>Shows possession or a relationship between nouns</td>
+</tr>
+<tr>
+<td>Ablative</td>
+<td>He walked <strong>from the park</strong></td>
+<td>Shows movement away from a place or time</td>
+</tr>
+<tr>
+<td>Vocative</td>
+<td><strong>Alex</strong>, come here</td>
+<td>Used to address or call out to someone directly</td>
+</tr>
+<tr>
+<td>Locative</td>
+<td>She's <strong>in New York</strong></td>
+<td>Shows location or where something is happening or located</td>
+</tr>
+</tbody>
+</table>
+<p>However, besides the first four noun cases, most other cases don't have a direct translation into English, so it is often straightforward to see the different types of cases (because they will often be translated literally).</p>
+<p>The best tip for these sorts of problems is to <strong>look for repetition</strong>. Look at common phrases in the English translation, usually corresponding to common noun cases, and try and see how they compare in the target language's translation.</p>
+<p>Try the problem below. Don't forget about phonology!</p>
+<div style="background-color: #DDF0FF; border-radius: 50px; padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+  <div style="font-weight: bold; font-size: 1.5rem;">Key Problem: Noun Cases</div>
+  <div style="margin-top: 10px; text-align: center; background-color: #008CBA; color: #fff; border-radius: 50px; padding: 5px; max-width: 90%;">
+    <a href="https://www.uklo.org/wp-content/uploads/2023/03/2023_R1_5-Permyak.pdf" style="font-size: 1.2rem; font-weight: bold; color: #fff; text-decoration: none;">UKLO 2023/1/5. Permyak</a>
+  </div>
+</div>
+
+<h2 id="verbs-person-tense-aspect-and-mood">Verbs: Person, Tense, Aspect, and Mood</h2>
+<p>While nouns typically have a limited number of cases they can decline to, verbs are much more complex in terms of the information they encode. One of the primary ways in which verbs vary across languages is through verb conjugation and affixation, which involves the modification of the verb form and addition of several suffixes and prefixes to indicate different aspects of person, tense, aspect, and mood.</p>
+<p>Different languages use different strategies for conveying this information, and some languages have many more verb forms than others. In some languages, the endings of verbs change depending on the gender of the subject or object, while in others the verb form remains the same regardless of gender. It's often a toss-up to what exactly a problem involving verbs will test, but here are a few things to look out for.</p>
+<h3 id="person">Person</h3>
+<p>Languages encode information about person onto their verbs in various ways, including through the use of different verb forms, affixes, or other means of modification. Below are some examples of how different languages encode information about person and other related features:</p>
+<ol>
+<li>
+<p>Most languages distinguish between different persons, including the first person (referring to the speaker), the second person (referring to the listener), and the third person (referring to someone or something else). Some languages even have a <em>person hierarchy</em>, meaning that they have an "ordering" of persons, and if a person lower on the hiearchy is the subject and a person higher on the hierarchy is the object, then an additional marker is applied to the verb.</p>
+</li>
+<li>
+<p>Languages can also distinguish between animate and inanimate objects or beings. For example, some languages use a different verb form when the subject is animate versus inanimate. Additionally, some languages distinguish between humans and non-human animate beings. Just like person hierarchy, <em>animacy hierarchy</em> exists.</p>
+</li>
+<li>
+<p>Some languages, such as Spanish and French, use different verb forms to indicate gender. In some cases, the verb form changes based on the gender of the subject or object. For example, in Spanish, the verb "to love" has different forms for "I love" (yo amo) and "she loves" (ella ama).</p>
+</li>
+<li>
+<p>Languages also have different ways of encoding plural information onto verbs. For example, some languages have separate verb forms for singular and plural subjects or objects. Additionally, some languages have specific verb forms for addressing multiple people, such as the English "you all" or "y'all" for the plural "you".</p>
+</li>
+<li>
+<p>Some languages use different verb forms to indicate politeness or formality. For example, in Korean, the polite verb form includes an honorific suffix. Similarly, in Japanese, the polite verb form often includes a special verb ending and different verb stems.</p>
+</li>
+</ol>
+<p>Many of these are not overtly marked in English, so it's important to pay attention to them if they do come up.</p>
+<h3 id="tense">Tense</h3>
+<p>Tense is the grammatical category that refers to the time of an event or action in relation to the moment of speaking. The most common tenses are past, present, and future. Some languages also have additional tenses, such as the perfect tense, which indicates that an action was completed in the past with ongoing effects in the present. </p>
+<p>You probably know the past, present, and future, but some languages have more distinctions of the past (say, a few days ago, a few minutes ago, and a very long time ago) or the future, which might not be apparent from the English translations.</p>
+<h3 id="aspect">Aspect</h3>
+<p>Aspect is the grammatical category that describes how an event or action unfolds over time. The most common aspects are perfective (indicating a completed action) and imperfective (indicating an ongoing or incomplete action). Other aspects include habitual (referring to a repeated action) and progressive (referring to an action in progress). These are often not marked directly on the verb in English, but they can be in other languages.</p>
+<h3 id="mood">Mood</h3>
+<p>Mood is the grammatical category that expresses the speaker's attitude or perspective toward an event or action. The most common moods are indicative (stating a fact or expressing a belief), subjunctive (expressing a hypothetical or counterfactual situation), and imperative (giving a command or making a request). These don't appear very often in linguistics olympiads, but it's useful to know them just in case you need to know what a language might do.</p>
+<h3 id="other-things">Other Things</h3>
+<p>There's more that verbs can do! For example, you might have been told to "avoid the passive voice". Passive voice is a grammatical construction that changes the focus of a sentence from the subject performing an action to the object receiving the action. In passive voice, the subject of the sentence is acted upon rather than acting. For example, "The ball was thrown by John" is in passive voice, while "John threw the ball" is in active voice. Some languages mark the verb for passive voice, however, as opposed to changing word order.</p>
+<p>Another distinction is called <em>active-stative</em>. Active and stative verbs are two categories of verbs that describe different types of actions or states.</p>
+<p>Active verbs describe actions that are performed by the subject of the sentence. For example, "I am running" or "She is singing." These verbs typically indicate a dynamic, ongoing activity and can often take an object that receives the action. On the other hand, stative verbs describe a state or condition that is attributed to the subject. For example, "I am happy" or "She knows the answer." These verbs typically describe a static, unchanging state or characteristic, and cannot be used with an object in the same way that active verbs can. </p>
+<p>Some languages will deal with these verbs differently as well.</p>
+<h2 id="practice-verb-problem">Practice Verb Problem</h2>
+<div style="background-color: #DDF0FF; border-radius: 50px; padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+  <div style="font-weight: bold; font-size: 1.5rem;">Key Problem: Verb Morphology Intro</div>
+  <div style="margin-top: 10px; text-align: center; background-color: #008CBA; color: #fff; border-radius: 50px; padding: 5px; max-width: 90%;">
+    <a href="https://www.uklo.org/wp-content/uploads/2023/03/2023_R1_2-Jam-Sai.pdf" style="font-size: 1.2rem; font-weight: bold; color: #fff; text-decoration: none;">UKLO 2023/1/2. Jam Sai</a>
+  </div>
+</div>
+
+<p>We'll just present a walkthrough here, and ask you to fill in the details. This problem borders on phonology also, but it just serves as an example to get you started in these sorts of problems.</p>
+<ol>
+<li>Look at each row. How is the left word changed to get to the right word? (Note: this change might not be the same for all of them!)</li>
+<li>Consider the two types of "changes" happening to the verbs. Categorize the verbs into these two types, and observe any patterns. (Some of these changes have their own distinct English verb, but some don't.)</li>
+<li>Where is the change inserted? What is the change inserted?</li>
+<li>Separate the verbs with nasalization (<sup>n</sup>) from those without. Which words have nasalization? (Hint: what are the nasals?)</li>
+<li>Conclude the problem.</li>
+</ol>
+<p>The above problem was relatively straightforward in terms of morphology, but some morphologies can be much more complicated. Here's another one for you to try that has a slightly strange system (but shows you the breadth of things human language can encode onto verbs!)</p>
+<div style="background-color: #DDF0FF; border-radius: 50px; padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+  <div style="font-weight: bold; font-size: 1.5rem;">Key Problem: More Complex Verb Morphology</div>
+  <div style="margin-top: 10px; text-align: center; background-color: #008CBA; color: #fff; border-radius: 50px; padding: 5px; max-width: 90%;">
+    <a href="https://www.uklo.org/wp-content/uploads/2022/05/5_UKLO-2022-Arhuaco_Arhuaco-things-places_-Complete-Script.pdf" style="font-size: 1.2rem; font-weight: bold; color: #fff; text-decoration: none;">UKLO 2022/1/5. Arhuaco</a>
+  </div>
+</div>
+
+<h2 id="example-problems">Example Problems</h2>
+<table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>★</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>★ <a href="https://www.nacloweb.org/resources/problems/2018/N2018-E.pdf">NACLO 2018/E. Parties in Palauan</a></td>
+<td>1</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2018/N2018-ES.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2018_1-Romanian.pdf">UKLO 2018/1/1. Romanian</a></td>
+<td>1</td>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2018_1-Romanian.pdf#page=2">Solution</a></td>
+</tr>
+<tr>
+<td>★ <a href="https://www.uklo.org/wp-content/uploads/2022/05/5_UKLO-2022-Arhuaco_Arhuaco-things-places_-Complete-Script.pdf">UKLO 2022/1/5. Arhuaco</a></td>
+<td>1.5</td>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/5_UKLO-2022-Arhuaco_Arhuaco-things-places_-Complete-Script.pdf#page=3">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2018_4-Fijian.pdf">UKLO 2018/1/4. Fijian</a></td>
+<td>2</td>
+<td><a href="https://www.uklo.org/wp-content/uploads/2022/05/2018_4-Fijian.pdf#page=3">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2011/D.pdf">NACLO 2011/D. Double or Quit in Caterpillar Country</a></td>
+<td>3</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2011/DS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2011/G.pdf">NACLO 2011/G. Ulwa Possessives</a></td>
+<td>3.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2011/GS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2017/N2017-P.pdf">NACLO 2017/P. Do you see what I see?</a></td>
+<td>3.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2017/N2017-PS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-O.pdf">NACLO 2022/O. Seeing the Future</a></td>
+<td>3.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2022/N2022-OS.pdf">Solution</a></td>
+</tr>
+<tr>
+<td>★ <a href="https://www.nacloweb.org/resources/problems/2020/N2020-J.pdf">NACLO 2020/J. You Made Me See</a></td>
+<td>4.5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2020/N2020-J.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-L.pdf">NACLO 2019/L. We Were Born to Solve this Problem</a></td>
+<td>5</td>
+<td><a href="https://www.nacloweb.org/resources/problems/2019/N2019-L.pdf">Solution</a></td>
+</tr>
+<tr>
+<td><a href="https://www.uklo.org/wp-content/uploads/2023/03/2023_R2_5-Mongo.pdf">UKLO 2023/2/5. Mongo</a></td>
+<td>5.5</td>
+<td><a href="https://www.uklo.org/wp-content/uploads/2023/03/2023_R2_5-Mongo.pdf#page=2">Solution</a></td>
+</tr>
+</tbody>
+</table></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
