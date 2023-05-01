@@ -6,13 +6,13 @@ The second round of the contest, the Invitational Round, usually contains 8-12 (
 
 | Timezone | Start | End |
 |--|--|--|
-| Hawaiian-Aleutian | 7:00 AM | 10:00 AM |
-| Alaskan | 8:00 AM | 11:00 AM |
-| Pacific | 9:00 AM | 12:00 PM |
-| Mountain | 10:00 AM | 1:00 PM |
-| Central | 9:00 AM | 12:00 PM |
-| Eastern | 10:00 AM | 1:00 PM |
-| Atlantic | 11:00 AM | 2:00 PM |
+| Hawaiian-Aleutian | 9:00 AM | 10:00 AM |
+| Alaskan | 9:00 AM | 1:00 PM |
+| Pacific | 9:00 AM | 1:00 PM |
+| Mountain | 9:00 AM | 1:00 PM |
+| Central | 9:00 AM | 1:00 PM |
+| Eastern | 9:00 AM| 1:00 PM |
+| Atlantic | 10:00 AM | 2:00 PM |
 
 <span style="font-size: small; color: grey; font-style: italic;">This information is taken from the NACLO Student Handbook.</span>
 
