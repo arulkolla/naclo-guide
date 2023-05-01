@@ -3,11 +3,6 @@ NACLO Guide — the premier resource for linguistics olympiads, open for all to 
 
 ## Contributing information
 
-We're so excited that you're # naclo-guide
-NACLO Guide — the premier resource for linguistics olympiads, open for all to contribute.
-
-## Contributing information
-
 We're so excited that you're interested in contributing to the NACLO Guide! Here are the steps to make a pull request:
 
 1. Fork the repository: Visit the [NACLO Guide repository](https://github.com/arulkolla/naclo-guide) and click on the "Fork" button in the top right corner. This will create a copy of the repository in your GitHub account.
