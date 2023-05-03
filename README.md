@@ -3,7 +3,9 @@ NACLO Guide — the premier resource for linguistics olympiads, open for all to 
 
 ## Contributing information
 
-We're so excited that you're interested in contributing to the NACLO Guide! Here are the steps to make a pull request:
+We're so excited that you're interested in contributing to the NACLO Guide! All pages have an "Edit on GitHub" button you can use to edit the raw Markdown file directly, from which Github will give you instructions to complete your pull request.
+
+Alternatively, if you want to do it the old-fashioned way or are working on a larger section, you can make a pull request from a local clone:
 
 1. Fork the repository: Visit the [NACLO Guide repository](https://github.com/arulkolla/naclo-guide) and click on the "Fork" button in the top right corner. This will create a copy of the repository in your GitHub account.
 2. Clone the repository: Go to your forked repository and click on the "Clone or download" button. Copy the HTTPS link and use the command `git clone <HTTPS link>` in your terminal to clone the repository to your local machine.
