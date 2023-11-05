@@ -25,7 +25,7 @@ Similarly, adjectives often attach onto nouns, but they might not always go befo
 <div style="background-color: #DDF0FF; border-radius: 50px; padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
   <div style="font-weight: bold; font-size: 1.5rem;">Key Problem: Beginning Sentence Rosettas</div>
   <div style="margin-top: 10px; text-align: center; background-color: #008CBA; color: #fff; border-radius: 50px; padding: 5px; max-width: 90%;">
-    <a href="https://www.nacloweb.org/resources/problems/2021/N2021-A.pdf" style="font-size: 1.2rem; font-weight: bold; color: #fff; text-decoration: none;">NACLO 2021/A. The Tortoise and The Rabbit</a>
+    <a href="https://www.naclo.org/resources/problems/2021/N2021-A.pdf" style="font-size: 1.2rem; font-weight: bold; color: #fff; text-decoration: none;">NACLO 2021/A. The Tortoise and The Rabbit</a>
   </div>
 </div>
 
@@ -33,7 +33,7 @@ Similarly, adjectives often attach onto nouns, but they might not always go befo
 2. Keep a table of the vocabulary you have, and complete task **A1**.
 3. How does past tense work?
 4. How do the determiners (the, this, that) function? (They don't need to just be one word!)
-5. Expand your vocabulary table, and complete task **A2**. You can check your answers [here](https://www.nacloweb.org/resources/problems/2021/N2021-AS.pdf).
+5. Expand your vocabulary table, and complete task **A2**. You can check your answers [here](https://www.naclo.org/resources/problems/2021/N2021-AS.pdf).
 
 Some languages have free word order, which means that the order of words in a sentence is not fixed and can vary depending on the context or emphasis. For example, in Latin, the subject, object, and verb can be arranged in any order because the function of each word is indicated by its case. This allows for more flexibility in word order because the function of each noun is indicated by its case, rather than its position in the sentence, like mentioned in the previous section. And this idea of free word order leads to the next commonly seen topic...
 
@@ -130,18 +130,18 @@ You might have also noticed that we haven't sprinkled key problems throughout, b
 | Problem | ★ | Solution |
 |--|--|--|
 | [UKLO 2021/1/2. Kabyle](https://www.uklo.org/wp-content/uploads/2022/05/2021_2-Kabyle.pdf) | 1 | [Solution](https://www.uklo.org/wp-content/uploads/2022/05/2021_2-Kabyle.pdf#page=2) |
-| ★ [NACLO 2018/A. At Ease in Gilbertese](https://www.nacloweb.org/resources/problems/2018/N2018-A.pdf) | 1 | [Solution](https://www.nacloweb.org/resources/problems/2018/N2018-AS.pdf) |
-| [NACLO 2017/A. A Little Tshiluba](https://www.nacloweb.org/resources/problems/2017/N2017-A.pdf) | 1 | [Solution](https://www.nacloweb.org/resources/problems/2017/N2017-AS.pdf) |
+| ★ [NACLO 2018/A. At Ease in Gilbertese](https://www.naclo.org/resources/problems/2018/N2018-A.pdf) | 1 | [Solution](https://www.naclo.org/resources/problems/2018/N2018-AS.pdf) |
+| [NACLO 2017/A. A Little Tshiluba](https://www.naclo.org/resources/problems/2017/N2017-A.pdf) | 1 | [Solution](https://www.naclo.org/resources/problems/2017/N2017-AS.pdf) |
 | [UKLO 2020/1/3. Norwedish?](https://www.uklo.org/wp-content/uploads/2022/05/2020_3.-Norwedish.pdf) | 1.5 | [Solution](https://www.uklo.org/wp-content/uploads/2022/05/2020_3.-Norwedish.pdf#page=3) |
-| ★ [NACLO 2019/B. You Speak Ndebele, Don't You?](https://www.nacloweb.org/resources/problems/2019/N2019-B.pdf) | 2 | [Solution](https://www.nacloweb.org/resources/problems/2019/N2019-BS.pdf) |
-| [NACLO 2019/E. Hate It or Lopit](https://www.nacloweb.org/resources/problems/2019/N2019-E.pdf) | 2 | [Solution](https://www.nacloweb.org/resources/problems/2019/N2019-ES.pdf) |
+| ★ [NACLO 2019/B. You Speak Ndebele, Don't You?](https://www.naclo.org/resources/problems/2019/N2019-B.pdf) | 2 | [Solution](https://www.naclo.org/resources/problems/2019/N2019-BS.pdf) |
+| [NACLO 2019/E. Hate It or Lopit](https://www.naclo.org/resources/problems/2019/N2019-E.pdf) | 2 | [Solution](https://www.naclo.org/resources/problems/2019/N2019-ES.pdf) |
 | [UKLO 2019/1/5. Pitjantjatjara](https://www.uklo.org/wp-content/uploads/2022/05/2019_5-Pitjantjatjara.pdf) | 2.5 | [Solution](https://www.uklo.org/wp-content/uploads/2022/05/2019_5-Pitjantjatjara.pdf#page=3) |
-| [NACLO 2020/F. Coming Into Focus](https://www.nacloweb.org/resources/problems/2020/N2020-F.pdf) | 2.5 | [Solution](https://www.nacloweb.org/resources/problems/2020/N2020-FS.pdf) |
-| ★ [NACLO 2017/L. The Goat, the Mother, and the Wardrobe](https://www.nacloweb.org/resources/problems/2017/N2017-L.pdf) | 3 | [Solution](https://www.nacloweb.org/resources/problems/2017/N2017-LS.pdf) |
-| [NACLO 2016/O. Don't Sell the House!](https://www.nacloweb.org/resources/problems/2016/N2016-O.pdf) | 3 | [Solution](https://www.nacloweb.org/resources/problems/2016/N2016-OS.pdf) |
-| [NACLO 2021/F. The Wiles of Reptiles](https://www.nacloweb.org/resources/problems/2021/N2021-F.pdf) | 3.5 | [Solution](https://www.nacloweb.org/resources/problems/2021/N2021-FS.pdf) |
-| [NACLO 2014/Q. Learning Yidiny](https://www.nacloweb.org/resources/problems/2014/N2014-Q.pdf) | 4.5 | [Solution](https://www.nacloweb.org/resources/problems/2014/N2014-QS.pdf) |
-| ★ [NACLO 2022/Q. Relatively Speaking](https://www.nacloweb.org/resources/problems/2022/N2022-Q.pdf) | 5 | [Solution](https://www.nacloweb.org/resources/problems/2022/N2022-QS.pdf) |
-| [NACLO 2021/M. The Speech Has No End](https://www.nacloweb.org/resources/problems/2021/N2021-M.pdf) | 5.5 | [Solution](https://www.nacloweb.org/resources/problems/2021/N2021-MS.pdf) |
-| [NACLO 2021/S. Peace Only](https://www.nacloweb.org/resources/problems/2021/N2021-S.pdf) | 6 | [Solution](https://www.nacloweb.org/resources/problems/2021/N2021-SS.pdf) |
-| [NACLO 2019/P. Do You Hear The Master's Moon?](https://www.nacloweb.org/resources/problems/2019/N2019-P.pdf) | 6 | [Solution](https://www.nacloweb.org/resources/problems/2019/N2019-PS.pdf) |
+| [NACLO 2020/F. Coming Into Focus](https://www.naclo.org/resources/problems/2020/N2020-F.pdf) | 2.5 | [Solution](https://www.naclo.org/resources/problems/2020/N2020-FS.pdf) |
+| ★ [NACLO 2017/L. The Goat, the Mother, and the Wardrobe](https://www.naclo.org/resources/problems/2017/N2017-L.pdf) | 3 | [Solution](https://www.naclo.org/resources/problems/2017/N2017-LS.pdf) |
+| [NACLO 2016/O. Don't Sell the House!](https://www.naclo.org/resources/problems/2016/N2016-O.pdf) | 3 | [Solution](https://www.naclo.org/resources/problems/2016/N2016-OS.pdf) |
+| [NACLO 2021/F. The Wiles of Reptiles](https://www.naclo.org/resources/problems/2021/N2021-F.pdf) | 3.5 | [Solution](https://www.naclo.org/resources/problems/2021/N2021-FS.pdf) |
+| [NACLO 2014/Q. Learning Yidiny](https://www.naclo.org/resources/problems/2014/N2014-Q.pdf) | 4.5 | [Solution](https://www.naclo.org/resources/problems/2014/N2014-QS.pdf) |
+| ★ [NACLO 2022/Q. Relatively Speaking](https://www.naclo.org/resources/problems/2022/N2022-Q.pdf) | 5 | [Solution](https://www.naclo.org/resources/problems/2022/N2022-QS.pdf) |
+| [NACLO 2021/M. The Speech Has No End](https://www.naclo.org/resources/problems/2021/N2021-M.pdf) | 5.5 | [Solution](https://www.naclo.org/resources/problems/2021/N2021-MS.pdf) |
+| [NACLO 2021/S. Peace Only](https://www.naclo.org/resources/problems/2021/N2021-S.pdf) | 6 | [Solution](https://www.naclo.org/resources/problems/2021/N2021-SS.pdf) |
+| [NACLO 2019/P. Do You Hear The Master's Moon?](https://www.naclo.org/resources/problems/2019/N2019-P.pdf) | 6 | [Solution](https://www.naclo.org/resources/problems/2019/N2019-PS.pdf) |

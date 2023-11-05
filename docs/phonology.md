@@ -20,7 +20,7 @@ The idea of learning about the IPA is not to get you to know every symbol (they 
 <div style="background-color: #DDF0FF; border-radius: 50px; padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
   <div style="font-weight: bold; font-size: 1.5rem;">Key Problem: Sound Changes</div>
   <div style="margin-top: 10px; text-align: center; background-color: #008CBA; color: #fff; border-radius: 50px; padding: 5px; max-width: 90%;">
-    <a href="https://www.nacloweb.org/resources/problems/2019/N2019-A.pdf" style="font-size: 1.2rem; font-weight: bold; color: #fff; text-decoration: none;">NACLO 2019/A. Malteaser</a>
+    <a href="https://www.naclo.org/resources/problems/2019/N2019-A.pdf" style="font-size: 1.2rem; font-weight: bold; color: #fff; text-decoration: none;">NACLO 2019/A. Malteaser</a>
   </div>
 </div>
 
@@ -89,14 +89,14 @@ These are just a few examples of the many types of sound changes that can occur 
 
 | Problem | ★ | Solution |
 |--|--|--|
-| **★** [NACLO 2020/A. Let that Mongo!](https://www.nacloweb.org/resources/problems/2020/N2020-A.pdf) | 1 | [Solution](https://www.nacloweb.org/resources/problems/2020/N2020-AS.pdf) |
+| **★** [NACLO 2020/A. Let that Mongo!](https://www.naclo.org/resources/problems/2020/N2020-A.pdf) | 1 | [Solution](https://www.naclo.org/resources/problems/2020/N2020-AS.pdf) |
 | [UKLO 2019/1/1. Ladin](https://www.uklo.org/wp-content/uploads/2022/05/2019_1-Ladin.pdf) | 1.5 | [Solution](https://www.uklo.org/wp-content/uploads/2022/05/2019_1-Ladin.pdf#page=2) |
-| [NACLO 2020/L. Shiva Sutras](https://www.nacloweb.org/resources/problems/2020/N2020-L.pdf) | 2 | [Solution](https://www.nacloweb.org/resources/problems/2020/N2020-LS.pdf) |
-| **★** [NACLO 2018/Q. Better Left Unsaid](https://www.nacloweb.org/resources/problems/2018/N2018-Q.pdf) | 2 | [Solution](https://www.nacloweb.org/resources/problems/2018/N2018-QS.pdf) |
-| [NACLO 2019/F. Harmongolia](https://www.nacloweb.org/resources/problems/2019/N2019-F.pdf) | 2.5 | [Solution](https://www.nacloweb.org/resources/problems/2019/N2019-FS.pdf) |
-| [NACLO 2019/J. Polish These Nouns!](https://www.nacloweb.org/resources/problems/2019/N2019-J.pdf) | 2.5 | [Solution](https://www.nacloweb.org/resources/problems/2019/N2019-JS.pdf) |
-| [NACLO 2016/M. Sound Judgements](https://www.nacloweb.org/resources/problems/2016/N2016-M.pdf) | 3 | [Solution](https://www.nacloweb.org/resources/problems/2016/N2016-MS.pdf) |
-| **★** [NACLO 2021/J. A Vintage Sound System](https://www.nacloweb.org/resources/problems/2021/N2021-J.pdf) | 3.5 | [Solution](https://www.nacloweb.org/resources/problems/2021/N2021-JS.pdf) |
+| [NACLO 2020/L. Shiva Sutras](https://www.naclo.org/resources/problems/2020/N2020-L.pdf) | 2 | [Solution](https://www.naclo.org/resources/problems/2020/N2020-LS.pdf) |
+| **★** [NACLO 2018/Q. Better Left Unsaid](https://www.naclo.org/resources/problems/2018/N2018-Q.pdf) | 2 | [Solution](https://www.naclo.org/resources/problems/2018/N2018-QS.pdf) |
+| [NACLO 2019/F. Harmongolia](https://www.naclo.org/resources/problems/2019/N2019-F.pdf) | 2.5 | [Solution](https://www.naclo.org/resources/problems/2019/N2019-FS.pdf) |
+| [NACLO 2019/J. Polish These Nouns!](https://www.naclo.org/resources/problems/2019/N2019-J.pdf) | 2.5 | [Solution](https://www.naclo.org/resources/problems/2019/N2019-JS.pdf) |
+| [NACLO 2016/M. Sound Judgements](https://www.naclo.org/resources/problems/2016/N2016-M.pdf) | 3 | [Solution](https://www.naclo.org/resources/problems/2016/N2016-MS.pdf) |
+| **★** [NACLO 2021/J. A Vintage Sound System](https://www.naclo.org/resources/problems/2021/N2021-J.pdf) | 3.5 | [Solution](https://www.naclo.org/resources/problems/2021/N2021-JS.pdf) |
 | [UKLO 2016/1/8. Somali](https://www.uklo.org/wp-content/uploads/2022/05/2016_8.-Somali.pdf) | 4 | [Solution](https://www.uklo.org/wp-content/uploads/2022/05/2016_8.-Somali.pdf#page=4) |
-| [NACLO 2020/P. Doubling Up on Nakanai](https://www.nacloweb.org/resources/problems/2020/N2020-P.pdf) | 4.5 | [Solution](https://www.nacloweb.org/resources/problems/2020/N2020-PS.pdf) |
-| [NACLO 2022/N. Pseudorandom Numbers](https://www.nacloweb.org/resources/problems/2022/N2022-N.pdf) | 6 | [Solution](https://www.nacloweb.org/resources/problems/2022/N2022-NS.pdf) |
+| [NACLO 2020/P. Doubling Up on Nakanai](https://www.naclo.org/resources/problems/2020/N2020-P.pdf) | 4.5 | [Solution](https://www.naclo.org/resources/problems/2020/N2020-PS.pdf) |
+| [NACLO 2022/N. Pseudorandom Numbers](https://www.naclo.org/resources/problems/2022/N2022-N.pdf) | 6 | [Solution](https://www.naclo.org/resources/problems/2022/N2022-NS.pdf) |

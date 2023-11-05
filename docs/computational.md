@@ -50,17 +50,17 @@ There aren't any walkthroughs in this section, since most computational problems
 
 | Problem | ★ | Solution |
 |--|--|--|
-| [NACLO 2010/A. Gelda's House of Gelbelgarg](https://www.nacloweb.org/resources/problems/2010/A.pdf) | 1 | [Solution](https://www.nacloweb.org/resources/problems/2010/AS.pdf) |
-| [NACLO 2019/G. Break it Down!](https://www.nacloweb.org/resources/problems/2019/N2019-G.pdf) | 1 | [Solution](https://www.nacloweb.org/resources/problems/2019/N2019-GS.pdf) |
-| ★ [NACLO 2022/G. Out of Order](https://www.nacloweb.org/resources/problems/2022/N2022-G.pdf) | 1 | [Solution](https://www.nacloweb.org/resources/problems/2022/N2022-GS.pdf) |
-| [NACLO 2022/L. Stopping for a Spell](https://www.nacloweb.org/resources/problems/2022/N2022-L.pdf) | 1 | [Solution](https://www.nacloweb.org/resources/problems/2022/N2022-LS.pdf) |
-| [NACLO 2021/H. Sequitur](https://www.nacloweb.org/resources/problems/2021/N2021-H.pdf) | 1.5 | [Solution](https://www.nacloweb.org/resources/problems/2021/N2021-HS.pdf) |
-| ★ [NACLO 2021/D. Made You Look!](https://www.nacloweb.org/resources/problems/2021/N2021-D.pdf) | 2 | [Solution](https://www.nacloweb.org/resources/problems/2021/N2021-DS.pdf) |
-| [NACLO 2020/D. Pay Attention](https://www.nacloweb.org/resources/problems/2020/N2020-D.pdf) | 2 | [Solution](https://www.nacloweb.org/resources/problems/2020/N2020-DS.pdf) |
-| [NACLO 2021/I. Non Sequitur](https://www.nacloweb.org/resources/problems/2021/N2021-I.pdf) | 2 | [Solution](https://www.nacloweb.org/resources/problems/2021/N2021-I.pdf) |
-| [NACLO 2022/C. To Make a Long Story Short](https://www.nacloweb.org/resources/problems/2022/N2022-C.pdf) | 2 | [Solution](https://www.nacloweb.org/resources/problems/2022/N2022-CS.pdf) |
-| [NACLO 2022/M. A Splitting Disagreement](https://www.nacloweb.org/resources/problems/2022/N2022-M.pdf) | 2.5 | [Solution](https://www.nacloweb.org/resources/problems/2022/N2022-M.pdf) |
-| ★ [NACLO 2018/G. By the Same Token](https://www.nacloweb.org/resources/problems/2018/N2018-G.pdf) | 3.5 | [Solution](https://www.nacloweb.org/resources/problems/2018/N2018-GS.pdf) |
-| [NACLO 2020/M. Adjupectiheaval!](https://www.nacloweb.org/resources/problems/2020/N2020-M.pdf) | 4 | [Solution](https://www.nacloweb.org/resources/problems/2020/N2020-MS.pdf) |
-| [NACLO 2021/R. GloVe Compartment](https://www.nacloweb.org/resources/problems/2021/N2021-R.pdf) | 5 | [Solution](https://www.nacloweb.org/resources/problems/2021/N2021-RS.pdf) |
-| [NACLO 2022/P. Yumology](https://www.nacloweb.org/resources/problems/2022/N2022-P.pdf) | 6.5 | [Solution](https://www.nacloweb.org/resources/problems/2022/N2022-PS.pdf) |
+| [NACLO 2010/A. Gelda's House of Gelbelgarg](https://www.naclo.org/resources/problems/2010/A.pdf) | 1 | [Solution](https://www.naclo.org/resources/problems/2010/AS.pdf) |
+| [NACLO 2019/G. Break it Down!](https://www.naclo.org/resources/problems/2019/N2019-G.pdf) | 1 | [Solution](https://www.naclo.org/resources/problems/2019/N2019-GS.pdf) |
+| ★ [NACLO 2022/G. Out of Order](https://www.naclo.org/resources/problems/2022/N2022-G.pdf) | 1 | [Solution](https://www.naclo.org/resources/problems/2022/N2022-GS.pdf) |
+| [NACLO 2022/L. Stopping for a Spell](https://www.naclo.org/resources/problems/2022/N2022-L.pdf) | 1 | [Solution](https://www.naclo.org/resources/problems/2022/N2022-LS.pdf) |
+| [NACLO 2021/H. Sequitur](https://www.naclo.org/resources/problems/2021/N2021-H.pdf) | 1.5 | [Solution](https://www.naclo.org/resources/problems/2021/N2021-HS.pdf) |
+| ★ [NACLO 2021/D. Made You Look!](https://www.naclo.org/resources/problems/2021/N2021-D.pdf) | 2 | [Solution](https://www.naclo.org/resources/problems/2021/N2021-DS.pdf) |
+| [NACLO 2020/D. Pay Attention](https://www.naclo.org/resources/problems/2020/N2020-D.pdf) | 2 | [Solution](https://www.naclo.org/resources/problems/2020/N2020-DS.pdf) |
+| [NACLO 2021/I. Non Sequitur](https://www.naclo.org/resources/problems/2021/N2021-I.pdf) | 2 | [Solution](https://www.naclo.org/resources/problems/2021/N2021-I.pdf) |
+| [NACLO 2022/C. To Make a Long Story Short](https://www.naclo.org/resources/problems/2022/N2022-C.pdf) | 2 | [Solution](https://www.naclo.org/resources/problems/2022/N2022-CS.pdf) |
+| [NACLO 2022/M. A Splitting Disagreement](https://www.naclo.org/resources/problems/2022/N2022-M.pdf) | 2.5 | [Solution](https://www.naclo.org/resources/problems/2022/N2022-M.pdf) |
+| ★ [NACLO 2018/G. By the Same Token](https://www.naclo.org/resources/problems/2018/N2018-G.pdf) | 3.5 | [Solution](https://www.naclo.org/resources/problems/2018/N2018-GS.pdf) |
+| [NACLO 2020/M. Adjupectiheaval!](https://www.naclo.org/resources/problems/2020/N2020-M.pdf) | 4 | [Solution](https://www.naclo.org/resources/problems/2020/N2020-MS.pdf) |
+| [NACLO 2021/R. GloVe Compartment](https://www.naclo.org/resources/problems/2021/N2021-R.pdf) | 5 | [Solution](https://www.naclo.org/resources/problems/2021/N2021-RS.pdf) |
+| [NACLO 2022/P. Yumology](https://www.naclo.org/resources/problems/2022/N2022-P.pdf) | 6.5 | [Solution](https://www.naclo.org/resources/problems/2022/N2022-PS.pdf) |

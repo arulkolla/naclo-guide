@@ -125,14 +125,14 @@ The above problem was relatively straightforward in terms of morphology, but som
 
 | Problem | ★ | Solution |
 |--|--|--|
-| ★ [NACLO 2018/E. Parties in Palauan](https://www.nacloweb.org/resources/problems/2018/N2018-E.pdf) | 1 | [Solution](https://www.nacloweb.org/resources/problems/2018/N2018-ES.pdf)
+| ★ [NACLO 2018/E. Parties in Palauan](https://www.naclo.org/resources/problems/2018/N2018-E.pdf) | 1 | [Solution](https://www.naclo.org/resources/problems/2018/N2018-ES.pdf)
 | [UKLO 2018/1/1. Romanian](https://www.uklo.org/wp-content/uploads/2022/05/2018_1-Romanian.pdf) | 1 | [Solution](https://www.uklo.org/wp-content/uploads/2022/05/2018_1-Romanian.pdf#page=2) |
 | ★ [UKLO 2022/1/5. Arhuaco](https://www.uklo.org/wp-content/uploads/2022/05/5_UKLO-2022-Arhuaco_Arhuaco-things-places_-Complete-Script.pdf) | 1.5 | [Solution](https://www.uklo.org/wp-content/uploads/2022/05/5_UKLO-2022-Arhuaco_Arhuaco-things-places_-Complete-Script.pdf#page=3) |
 | [UKLO 2018/1/4. Fijian](https://www.uklo.org/wp-content/uploads/2022/05/2018_4-Fijian.pdf) | 2 | [Solution](https://www.uklo.org/wp-content/uploads/2022/05/2018_4-Fijian.pdf#page=3) |
-| [NACLO 2011/D. Double or Quit in Caterpillar Country](https://www.nacloweb.org/resources/problems/2011/D.pdf) | 3 | [Solution](https://www.nacloweb.org/resources/problems/2011/DS.pdf) |
-| [NACLO 2011/G. Ulwa Possessives](https://www.nacloweb.org/resources/problems/2011/G.pdf) | 3.5 | [Solution](https://www.nacloweb.org/resources/problems/2011/GS.pdf) |
-| [NACLO 2017/P. Do you see what I see?](https://www.nacloweb.org/resources/problems/2017/N2017-P.pdf) | 3.5 | [Solution](https://www.nacloweb.org/resources/problems/2017/N2017-PS.pdf) |
-| [NACLO 2022/O. Seeing the Future](https://www.nacloweb.org/resources/problems/2022/N2022-O.pdf) | 3.5 | [Solution](https://www.nacloweb.org/resources/problems/2022/N2022-OS.pdf) |
-| ★ [NACLO 2020/J. You Made Me See](https://www.nacloweb.org/resources/problems/2020/N2020-J.pdf) | 4.5 | [Solution](https://www.nacloweb.org/resources/problems/2020/N2020-J.pdf) |
-| [NACLO 2019/L. We Were Born to Solve this Problem](https://www.nacloweb.org/resources/problems/2019/N2019-L.pdf) | 5 | [Solution](https://www.nacloweb.org/resources/problems/2019/N2019-L.pdf) |
+| [NACLO 2011/D. Double or Quit in Caterpillar Country](https://www.naclo.org/resources/problems/2011/D.pdf) | 3 | [Solution](https://www.naclo.org/resources/problems/2011/DS.pdf) |
+| [NACLO 2011/G. Ulwa Possessives](https://www.naclo.org/resources/problems/2011/G.pdf) | 3.5 | [Solution](https://www.naclo.org/resources/problems/2011/GS.pdf) |
+| [NACLO 2017/P. Do you see what I see?](https://www.naclo.org/resources/problems/2017/N2017-P.pdf) | 3.5 | [Solution](https://www.naclo.org/resources/problems/2017/N2017-PS.pdf) |
+| [NACLO 2022/O. Seeing the Future](https://www.naclo.org/resources/problems/2022/N2022-O.pdf) | 3.5 | [Solution](https://www.naclo.org/resources/problems/2022/N2022-OS.pdf) |
+| ★ [NACLO 2020/J. You Made Me See](https://www.naclo.org/resources/problems/2020/N2020-J.pdf) | 4.5 | [Solution](https://www.naclo.org/resources/problems/2020/N2020-J.pdf) |
+| [NACLO 2019/L. We Were Born to Solve this Problem](https://www.naclo.org/resources/problems/2019/N2019-L.pdf) | 5 | [Solution](https://www.naclo.org/resources/problems/2019/N2019-L.pdf) |
 | [UKLO 2023/2/5. Mongo](https://www.uklo.org/wp-content/uploads/2023/03/2023_R2_5-Mongo.pdf) | 5.5 | [Solution](https://www.uklo.org/wp-content/uploads/2023/03/2023_R2_5-Mongo.pdf#page=2) |

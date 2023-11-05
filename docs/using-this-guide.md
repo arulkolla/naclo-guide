@@ -20,7 +20,7 @@ So, whether you are a high school student interested in competing in NACLO, a te
 - Each problem has a certain ★ rating, which is intended to be an approximate amount of time required (corresponding roughly to difficulty): each ★ should take about 20-30 minutes for beginners and 10-20 minutes for veterans. (Of course, this can vary significantly, and your mileage may vary!)
 - The sections are mostly independent, so you can proceed them in any order you wish.
 - However, it is recommended that you start with the sections that introduce the basics of the contest before moving on to more advanced topics.
-- In addition to the problems included in this guide, we also recommend that you practice with additional [past NACLO problems](https://www.nacloweb.org/practice.php).
+- In addition to the problems included in this guide, we also recommend that you practice with additional [past NACLO problems](https://www.naclo.org/practice.php).
 
 ## The Types of Problems
 
