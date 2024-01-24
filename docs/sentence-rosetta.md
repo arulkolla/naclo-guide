@@ -12,7 +12,7 @@ Often times, there will be one key aspect that the problem will focus on, which 
 
 | Source | Resource | Description |
 |--|--|--|
-| [Artifexian](https://www.youtube.com/@Artifexian) | [WORD ORDER | This Video Enjoyed You](https://www.youtube.com/watch?v=zFe1ahJ_LTk) | An investigation into word order. |
+| [Artifexian](https://www.youtube.com/@Artifexian) | [WORD ORDER: This Video Enjoyed You](https://www.youtube.com/watch?v=zFe1ahJ_LTk) | An investigation into word order. |
 
 Word order refers to the arrangement of words in a sentence. It is a fundamental aspect of language that allows speakers to convey meaning effectively. In English, word order generally follows a subject-verb-object (SVO) pattern, where the subject comes first, followed by the verb, and then the object. For example, "I ate an apple."
 
